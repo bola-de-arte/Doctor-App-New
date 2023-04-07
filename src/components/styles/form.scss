@@ -1,35 +1,17 @@
 .form {
+  font-family: "Open Sans";
   &__checkbox {
     margin-top: 5px;
-  }
-
-  &__textarea {
-    width: 100%;
-    height: 20px;
   }
 
   &__select {
     width: 100%;
     height: 20px;
     font-size: 14px;
-    color: var(--alpha);
-  }
-
-  &--page {
-    padding: 10px;
-
-    footer {
-      font-size: 14px;
-      text-align: center;
-      margin-top: 10px;
-      a {
-        text-decoration: underline;
-        color: var(--beta);
-      }
-    }
   }
 
   &__group {
+    // spaces between labels and fields
     margin-top: 2px;
 
     &--page {
@@ -37,10 +19,23 @@
     }
   }
 
+  &--page {
+    footer {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 10px;
+      a {
+        text-decoration: underline;
+        color: var(--blue);
+      }
+    }
+  }
+
   &__label {
-    font-size: 17px;
+    // label texts
+    font-size: 14px;
     font-weight: bold;
-    color: var(--gamma);
+    color: var(--black);
 
     &--light {
       color: var(--light);
@@ -48,17 +43,23 @@
   }
 
   &__field {
+    //text field
     width: 100%;
-    height: 5px;
+    height: 20px;
     padding: 10px;
   }
 
   &__btn {
-    background-color: #a3cef1;
+    //botton properties
+    background-color: var(--babyBlue);
     border: none;
-    width: 100%;
-    color: #ffffff;
-    font-weight: bold;
+    border-radius: 20px;
+    color: var(--light);
+    font-family: "OpenSans ExtraBold";
+    height: 40px;
+    max-width: 200px;
     padding: 8px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
