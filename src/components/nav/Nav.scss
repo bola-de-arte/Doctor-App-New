@@ -1,7 +1,6 @@
 .nav {
   display: grid;
   grid-template-columns: min-content 1fr min-content;
-  grid-template-rows: 4;
   background-color: #aac78c;
   height: 35px;
   width: auto;
@@ -9,18 +8,21 @@
 
   &__left {
     grid-row: 1 / 2;
-    grid-column: 1 / 4;
+    grid-column: 1 / 2;
+
     display: flex;
+    margin-left: 15px;
+    gap: 15px;
     align-items: center;
-    li {
-      margin-left: 30px;
-    }
   }
 
   &__right {
     grid-row: 1/ 2;
     grid-column: 3/ 4;
+
     display: flex;
+    margin-right: 15px;
+    gap: 15px;
     align-items: center;
   }
 }

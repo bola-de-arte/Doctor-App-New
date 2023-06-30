@@ -1,12 +1,13 @@
 import React from "react";
 import "./Header.scss";
 
-export default function Header() {
+export default function Header(props) {
+  const { title } = props;
   return (
     <>
-      <div className="header">
-        <div className="header__main">
-          <h1>Iniciar Sesión</h1>
+      <div class="header">
+        <div class="header__main">
+          <h1>{title}</h1>
         </div>
       </div>
     </>

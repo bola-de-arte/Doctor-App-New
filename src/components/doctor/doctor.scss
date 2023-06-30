@@ -1,0 +1,46 @@
+.doctor {
+  font-family: "Open Sans";
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 5px;
+  }
+
+  &__header {
+    margin-top: 40px;
+    background-color: var(--babyBlue);
+    p {
+      font-size: 14px;
+      text-align: center;
+      font-family: "OpenSans Bold";
+      color: var(--light);
+      line-height: 30px;
+    }
+  }
+
+  &__types {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+  }
+
+  &__wrap {
+    display: grid;
+  }
+
+  &__picture {
+    grid-column: 1 / 2;
+    img {
+      width: 100%;
+    }
+  }
+
+  footer {
+    font-size: 14px;
+    text-align: right;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: var(--blue);
+  }
+}

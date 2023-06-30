@@ -2,16 +2,15 @@ import React from "react";
 import Header from "../components/header/Header";
 import Nav from "../components/nav/Nav";
 import Container from "../components/container/container";
-import Login from "../components/login/login";
+import Register from "../components/register/register";
 
-export default function Home() {
-  //Needed to export so I can later import elsewhere
+export default function HomePage() {
   return (
     <>
       <Nav />
-      <Header />
+      <Header title="Registro de Sesión" />
       <Container>
-        <Login />
+        <Register />
       </Container>
     </>
   );

@@ -1,0 +1,49 @@
+.scale {
+  display: grid;
+  font-family: "Open Sans";
+  &__box {
+    display: flex;
+    //border: 1px red dotted;
+    height: 70px;
+    width: 50%;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  &__circle {
+    display: flex;
+    height: 35px;
+    width: 35px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    justify-self: center;
+    justify-content: space-between;
+  }
+
+  h2 {
+    font-family: "OpenSans Bold";
+    display: flex;
+    font-size: 14px;
+    line-height: 100px;
+    margin-left: 5px;
+  }
+
+  &__footer {
+    display: grid;
+    align-content: space-between;
+    //border: 1px red dotted;
+    gap: 40%;
+
+    p1 {
+      //border: 1px red dotted;
+      grid-column: 1/ 2;
+      justify-self: center;
+    }
+    p2 {
+      grid-column: 2/ 2;
+      justify-self: center;
+    }
+  }
+}

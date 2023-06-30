@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/form.scss";
-import "./login.scss";
+import "../login/login.scss";
 
 export default function login() {
   return (

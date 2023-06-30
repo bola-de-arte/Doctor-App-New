@@ -1,0 +1,18 @@
+.profile {
+  font-family: "Open Sans";
+
+  &__box {
+    //border: 3px red dotted;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__text {
+    //border: 3px green dotted;
+    display: flex;
+    flex-direction: column;
+    line-height: 2px;
+    justify-content: center;
+    text-align: center;
+  }
+}

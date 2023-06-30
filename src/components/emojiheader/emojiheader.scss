@@ -1,0 +1,26 @@
+.emojiheader {
+  font-family: "Open Sans";
+  height: 80px;
+
+  &__box {
+    background-color: white;
+    display: -webkit-inline-flex;
+    //border: 2px red dotted;
+    align-content: space-between;
+    gap: 65%;
+    width: 100%;
+    h1 {
+      text-align: left;
+      font-size: 14px;
+      //line-height: 10px;
+      margin-left: 5px;
+    }
+
+    img {
+      display: inline-block;
+      //border: 2px green dotted;
+
+      //margin-left: 80%;
+    }
+  }
+}
